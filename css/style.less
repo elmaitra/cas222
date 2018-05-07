@@ -1,0 +1,182 @@
+/*Assignment Name: CAS 222 Template for Ace Website
+File Name: style.less
+Date: 05/03/2018
+Programmer: Ellorashree Maitra
+*/
+
+@import 'palette.less';
+@import 'library.less';
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+/*Mobile Layout*/
+
+body {
+      font-family: @bodyFont;
+}
+
+header {
+    width: 100%;
+    background-color: @black;
+    height: 100px;
+    line-height: 60px;
+    border-bottom: 1px solid @maroon;
+    display: inline-block;
+    font-family: @headingFont;
+    text-align: left;
+    color: @white;
+
+    
+   .hamburger{
+  background:none;
+  position:absolute;
+  top:0;
+  right:0;
+  line-height:45px;
+  padding:5px 15px 0px 15px;
+  color:@white;
+  border:0;
+  font-size:1.4em;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}
+.cross{
+  background:none;
+  position:absolute;
+  top:0px;
+  right:0;
+  padding:7px 15px 0px 15px;
+  color:@white;
+  border:0;
+  font-size:3em;
+  line-height:65px;
+  font-weight:bold;
+  cursor:pointer;
+  outline:none;
+  z-index:10000000000000;
+}
+
+}
+    
+nav { 
+     background-color: @maroon;
+     color:@white; 
+     font-family: @headingFont;
+    
+    .menu{z-index:1000000; font-weight:bold; font-size:0.8em; width:100%; background:#f1f1f1;  position:absolute; text-align:center; font-size:12px;}
+.menu ul {margin: 0; padding: 0; list-style-type: none; list-style-image: none;}
+.menu li {display: block;   padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
+.menu li:hover{display: block;    background:#ffffff; padding:15px 0 15px 0; border-bottom:#dddddd 1px solid;}
+.menu ul li a { text-decoration:none;  margin: 0px; color:#666;}
+.menu ul li a:hover {  color: #666; text-decoration:none;}
+.menu a{text-decoration:none; color:#666;}
+.menu a:hover{text-decoration:none; color:#666;}
+
+.glyphicon-home{
+  color:white; 
+  font-size:1.5em; 
+  margin-top:5px; 
+  margin:0 auto;
+}
+    
+}
+    
+    
+
+main {
+    padding: 2em;
+    background-color: @offWhite;
+    
+    
+    h2 {
+        font-family: @headingFont; 
+        font-size: 1.7em;
+        color: @maroon;
+        text-align: left;
+        text-decoration: underline;
+    }
+    
+    section {
+        padding-bottom: 3em;
+    }
+    
+    
+    
+    p, li {
+        .textSize(1.25em);
+        color: @black;
+    }
+    
+    
+    span {
+        font-weight: bold;
+    }
+}
+
+
+footer {
+    font-family: @bodyFont;
+    background-color: @maroon;
+    color: @ivory;
+    padding: 2.5em;
+    
+    p, li {
+        .textSize(.9em);
+        padding-top: .5em;
+    }
+    
+    .fa {
+        color: @ivory;
+        font-weight: bold;
+        font-size: 1.5em;
+        letter-spacing: .55em;
+        float: right;
+    }
+    
+}
+
+ 
+
+
+/* TABLET STYLES*/
+
+@media only screen and (min-width: 480px) {
+    
+header { height: 500px;
+    
+    h1 {
+        .headingFont(@headingFont; 4em);
+        line-height: 1.5em;
+    }
+ }
+
+    
+nav { 
+    padding-top: 1.5em;
+    height: 120px;
+    
+    ul li {
+        display: inline;
+        
+    }
+  }
+    
+}
+
+
+
+
+
+
+    
+
