@@ -11,6 +11,7 @@
     
 </section>
     
-    <p>Copyright &copy; <?php echo date("Y");?> Ace Multisports Events.</p>
+    <p>Copyright &copy; <?php echo date("Y");?></p> 
+    <p>Ace in the Hole Multisport Events.</p>
     
 </footer>
