@@ -1,0 +1,199 @@
+/*Assignment Name: CAS 222 Template for Ace Website
+File Name: style.less
+Date: 05/03/2018
+Programmer: Ellorashree Maitra
+*/
+
+@import 'library.less';
+
+@red: rgb(255, 0, 0);
+@nearBlack: #0A030B;
+@black: rgb(0, 0, 0);
+@offWhite: rgb(244, 243, 242);
+@ivory: rgb(255, 255, 240);
+@white: #FFFFFF;
+@gray: #808080;
+@lightGray: #D3D3D3;
+@headingFont: "Abril Fatface", cursive;
+@bodyFont: "Open Sans", sans-serif;
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+   box-sizing: border-box;
+}
+
+img {
+    max-width: 100%;
+}
+
+/*Mobile Layout*/
+
+
+body {
+    height: 100%;
+    margin: 0;
+    font-family: @bodyFont;
+}
+
+
+/*header {
+    width: 100%;
+    background-color: @black;
+    height: 50px;
+    border-bottom: 1px solid @red;
+    font-family: @headingFont;
+
+ 
+   h1 {
+        padding: 3px;
+        font-size: 15pt;
+        font-weight: bold;
+        color: @red;
+        text-align: center;
+    }
+    
+}*/
+
+ header {
+    background-image:url(../images/headerHero/aceHero900-720.jpg);
+    background-position: center center;
+    background-size: cover;
+    padding: 2em;
+    width: 100%;
+    height: 250px;
+    position: relative;
+    z-index: 1;
+    
+}
+
+.hero-text {
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-family: "Abril Fatface", cursive;
+  font-weight: bold;
+  font-size: 1em;
+  line-height: 1.6;
+  color: #ffffff;
+  white-space: nowrap;
+
+}
+
+main {
+    
+    padding: 2em;
+    background-color: @white;
+    
+    h2, h3 {
+        font-family: @headingFont;
+        text-align: left;
+    }
+    
+    section {
+        padding-bottom: 2em;
+    }
+    
+    p, li {
+        .textSize(1.25em);
+    }
+    
+    ul li {
+        list-style-type: square;
+        list-style-position: inside;
+    }
+
+
+    
+    .primary {
+        flex: 100%;
+        background-color: @white;
+        padding: 20px;
+    }
+    
+    .sidebar {
+        background-color: @lightGray;
+        display: none;
+    }
+  
+    
+}
+
+
+
+footer {
+    font-family: @bodyFont;
+    background-color: @black;
+    color: @ivory;
+    padding: 1em;
+    
+    p, li {
+        .textSize(.75em);
+        padding-top: .5em;
+    }
+    
+    p span {
+        color: @red;
+        font-weight: 700;
+    }
+    
+    
+    
+    .fa {
+        color: @ivory;
+        font-weight: bold;
+        font-size: 1.5em;
+        letter-spacing: .55em;
+        float: right;
+    }
+    
+}
+
+ 
+/* TABLET & LARGER PHONE STYLES*/
+
+@media only screen and (min-width: 480px) {
+    
+    header h1 {
+        
+           font-size: 1.5em;
+    }
+    
+    
+    
+    
+}
+
+/* LARGER TABLET AND DESKTOP: CREATE HORIZONTAL NAVIGATION BAR AT 780 PX OR HIGHER */
+
+@media only screen and (min-width: 768px) {
+    
+    header {
+        
+        height: 550px;
+    }
+    
+    .hero-text {
+        
+        font-size: 1.5em;
+    }
+    
+    .primary {
+        flex: 65%;
+    }
+    
+    .sidebar {
+        padding: 20x;
+        display: flex;
+        flex: 35%;
+    }
+    
+    
+    
+}
+
+
+
+  
