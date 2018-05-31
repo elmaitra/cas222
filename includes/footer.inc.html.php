@@ -1,4 +1,4 @@
-<footer>
+
     
 <section>
     <!-- In the code below, replace general social media hyperlinks to be replaced with hyperlinks to company home pages on social media when set up.-->
@@ -12,6 +12,5 @@
 </section>
     
     <p>Copyright &copy; <?php echo date("Y");?></p> 
-    <p>Ace in the Hole Multisport Events.</p>
+    <p><span>Ace in the Hole Multisport Events.</span></p>
     
-</footer>
