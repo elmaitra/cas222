@@ -1,7 +1,7 @@
 <!doctype html>
 
 <!--Assignment Name: CAS 222 Ace Website Template
-File Name: template.php
+File Name: index.php
 Date: 05/03/18
 Programmer: Ellorashree Maitra
 -->
@@ -14,7 +14,7 @@ Programmer: Ellorashree Maitra
 <meta name="viewport" content="width=device-width, height=device-height, initial-scale=1">
 <!-- <base target="_blank"> <!-- this ensures that all links not marked "_self" will open in a new tab -->
     
-<title>Ace Website Template</title>
+<title>Ace Website Home Page</title>
     
 <link href="https://fonts.googleapis.com/css?family=Abril+Fatface|Open+Sans" rel="stylesheet">
 <link rel="stylesheet" href="css/reset.css" type="text/css">
@@ -48,6 +48,7 @@ Programmer: Ellorashree Maitra
     <section class="primary"> 
         
 <h1>Ace in the Hole Multisport Events</h1>
+        <h1>Home Page</h1>
  
 <h2>About Us</h2>
 
@@ -96,14 +97,18 @@ Programmer: Ellorashree Maitra
       <dd>Specially designed for kids between 6 and 12, the <span>Splash-n-Dash Duathlon</span> features a 100 yard swim and a 50 meter run.<span> Cost:</span> $25 or FREE with 1 adult event registration.</dd>
       <a href="events/events.html.php" class="button">Learn more</a>
  </dl>      
-      
+     
  </section>
+    
+ <section class="sidebarDesktop"> 
+     
  <div class="fb-page" data-href="https://www.facebook.com/cas222cascade" data-tabs="timeline" data-small-header="false" data-adapt-container-width="true" data-hide-cover="false" data-show-facepile="true"><blockquote cite="https://www.facebook.com/cas222cascade" class="fb-xfbml-parse-ignore"><a href="https://www.facebook.com/cas222cascade">CAS 222</a></blockquote></div>
     
   <section> 
     <a class="twitter-timeline" href="https://twitter.com/pcccas222?ref_src=twsrc%5Etfw">Tweets by pcccas222</a> <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script> 
     </section>
-    
+     
+ </section>   
    
 </main>
     
