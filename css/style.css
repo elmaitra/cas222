@@ -49,6 +49,9 @@ main section .primary {
   padding: 20px;
   width: 100%;
 }
+main section .sidebarDesktop {
+  display: none;
+}
 main h1,
 main h2,
 main h3 {
@@ -59,9 +62,9 @@ main h1 {
   padding: 2px;
   line-height: 1.6;
   text-align: center;
-  background-color: #ff0000;
-  color: #000000;
-  border: 1px solid #000000;
+  background-color: #000000;
+  color: #ffffff;
+  border: 1px solid #ff0000;
   margin: 5px;
 }
 main h2 {
@@ -109,9 +112,6 @@ main dl dd span {
 main ul li {
   list-style-type: square;
   list-style-position: inside;
-}
-aside .sidebarDesktop {
-  display: none;
 }
 .button {
   background-color: #000000;
@@ -175,7 +175,7 @@ footer .fa {
     border: 1px solid #000000;
     padding: 20px;
   }
-  aside .sidebarDesktop {
+  main section .sidebarDesktop {
     float: right;
     padding: 20px;
     width: 25%;
